@@ -6,7 +6,7 @@ dbRequest.onupgradeneeded = event => {
 
     const db = event.target.result;
     const store = db.createObjectStore("budge", { autoIncrement: true });
-   
+    store.createIndex("statusIndex", "status")
 };
 
 dbRequest.onsuccess = event => {
@@ -19,8 +19,13 @@ dbRequest.onerror = event => {
     console.log(`Error opening connection to indexedDB: ${event.target.error}`)
 };
 
-function saveRecord (record){
-const budgeStore = db.transaction(["budge"], "readwrite").transcation.objectStore("budge");
+// coming from index.js sendTranscation function. 
+function saveRecord(record) {
+    const budgeStore = db.transaction(["budge"], "readwrite").transcation.objectStore("budge");
     budgeStore.add(record);
 }
 
+const getDataByStatus = db =>{
+    const budgeStore = db.transaction(["budge"], "readwrite").transcation.objectStore("budge");
+    const 
+}
