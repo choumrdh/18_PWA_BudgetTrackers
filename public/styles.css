@@ -1,11 +1,12 @@
 body {
   font-size: 120%;
-  font-family: Arial;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7d1ff;
 }
 
 button, input {
   font-size: 100%;
-  font-family: Arial;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 table {
@@ -13,13 +14,13 @@ table {
 }
 
 td, th {
-  border: 1px solid #dddddd;
+  border: 1px solid #a77e7e;
   text-align: left;
   padding: 8px;
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #a77e7e;
 }
 
 .error {
