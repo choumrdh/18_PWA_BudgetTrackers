@@ -1,7 +1,7 @@
 body {
   font-size: 120%;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f7d1ff;
+  background-color: #ebc6fa;
 }
 
 button, input {
@@ -14,13 +14,13 @@ table {
 }
 
 td, th {
-  border: 1px solid #a77e7e;
+  border: 1px solid #7e9fca;
   text-align: left;
   padding: 8px;
 }
 
 tr:nth-child(even) {
-  background-color: #a77e7e;
+  background-color: #7e9fca;
 }
 
 .error {
