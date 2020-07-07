@@ -1,4 +1,4 @@
-const dbRequest = indexedDB.open("budgeDB", 1);
+const dbRequest = indexedDB.open("budgetDB", 1);
 let db = null; 
 
 dbRequest.onupgradeneeded = (event)=>{
