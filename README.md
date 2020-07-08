@@ -1,9 +1,9 @@
 # Project Title: 18_PWA_BudgetTrackers:raised_hands:
 - Add functionality to our existing Budget Tracker application to allow for offline access and functionality.:bulb: 
 - The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
-[![BudgetTracker](./public/BudgetTracker.png)](https://pwa-18-budgettracker.herokuapp.com/)
+[![BudgetTracker](./public/images/BudgetTracker.png)](https://pwa-18-budgettracker.herokuapp.com/)
 
-[![BudgetTracker](./public/BudgetTracker_IndexedDB.png)](https://pwa-18-budgettracker.herokuapp.com/)
+[![BudgetTracker](./public/images/BudgetTracker_IndexedDB.png)](https://pwa-18-budgettracker.herokuapp.com/)
   ## Table of Contents:
   - [User Story](#user-story-speech_balloon)
   - [Installation](#installation-floppy_disk)
