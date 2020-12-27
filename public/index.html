@@ -63,8 +63,44 @@
           });
       });
     }
+    
   </script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.24.0/firebase-app.js"></script>
 
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.24.0/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+<!--  -->
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyAFu_7WQpl81qarX2Dky0j5HqbktYyzPkg",
+    authDomain: "budgettracker-pwa.firebaseapp.com",
+    databaseURL: "https://budgettracker-pwa.firebaseio.com",
+    projectId: "budgettracker-pwa",
+    storageBucket: "budgettracker-pwa.appspot.com",
+    messagingSenderId: "627255597492",
+    appId: "1:627255597492:web:84eb594885511ce0b6bae1",
+    measurementId: "G-VWGLXNE1J0"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </body>
 
 </html>
